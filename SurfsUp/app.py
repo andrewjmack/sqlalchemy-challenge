@@ -6,6 +6,7 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
+from sqlalchemy import Column, Integer, String, Float
 
 from flask import Flask, jsonify
 
@@ -25,10 +26,11 @@ Base.prepare(autoload_with=engine)
 
 # Assign the measurement class to a variable called `Measurement` and
 # the station class to a variable called `Station`
-
+Measurement = Base.classes.measurement
+Station = Base.classes.station
 
 # Create a session
-
+session = Session(bind=engine)
 
 #################################################
 # Flask Setup

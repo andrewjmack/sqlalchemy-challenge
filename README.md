@@ -9,14 +9,14 @@ The challenge consists of two parts: analysis (Jupyter notebook) and endpoints t
 ## Repo Contents
 - README
 - Surfsup
--   \climate_starter.ipynb
--   \app.py
--   \Resources
--       \hawaii_measurements.csv
--       \hawaii_stations.csv
--       \hawaii.sqlite
--   \templates
--       \index.html
+    - /climate_starter.ipynb
+    - /app.py
+    - /Resources
+        - /hawaii_measurements.csv
+        - /hawaii_stations.csv
+        - /hawaii.sqlite
+    - /templates
+        - /index.html
 
 ## Resources
 - Initial notebook and python files as well as datasets provided

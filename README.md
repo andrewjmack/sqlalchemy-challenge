@@ -1,10 +1,10 @@
 # sqlalchemy-challenge
 ### Andrew Mack | DU Data Analytics | April 2024
 
-UPDATES 5.6.2024:
-    - Originally, single quotation marks around 'start' and 'end' relating to the two dynamic routes' date format lead to user confusion, and were removed.
-    - A screenshot of dynamic start/end date API route added to the repo to show it is functioning after clarifying the correct format in the index.HTML file for the API URLs.
-    - The static 'precipitation' API route has been fixed
+#### UPDATES 5.6.2024:
+- Originally, single quotation marks around 'start' and 'end' relating to the two dynamic routes' date format lead to user confusion, and were removed.
+- A screenshot of dynamic start/end date API route added to the repo to show it is functioning after clarifying the correct format in the index.HTML file for the API URLs.
+- The static 'precipitation' API route was also fixed.
 
 ## Summary
 This repository contains the files to meet the requirements of the SQL Alchemy module 10 homework challenge.

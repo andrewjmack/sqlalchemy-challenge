@@ -11,8 +11,6 @@ This repository contains the files to meet the requirements of the SQL Alchemy m
 
 The challenge consists of two parts: analysis (Jupyter notebook) and endpoints through a Flask server app (Python file). An html template is used to improve the API landing page.
 
-UPDATES 5.6.2024: Originally, single quotation marks around 'start' and 'end' relating to the dynamic routes' date format lead to user confusion, and were removed. A screenshot of dynamic start/end date API route added to the repo to show it is functioning after clarifying the correct format in the index.HTML file for the API URLs.
-
 ## Repo Contents
 - README
 - Dynamic Route Screenshot 2024_05_06.png

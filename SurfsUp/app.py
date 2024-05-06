@@ -51,8 +51,7 @@ def welcome():
     return render_template("index.html")
 
 # Returns json with date as the key and value as the precipitation for last year in database
-#@app.route("/api/v1.0/precipitation")
-@app.route("/precipitation")
+@app.route("/api/v1.0/precipitation")
 def precipitation():
     
     # print call acknowledgment to terminal
